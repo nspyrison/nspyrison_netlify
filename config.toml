@@ -1,0 +1,50 @@
+## Basic Configuration
+#browseURL("https://alison.rbind.io/post/up-and-running-with-blogdown/")
+baseurl = "https://NicholasSpyrison.com/"
+languageCode = "en"
+
+title = "Nicholas Spyrison"
+theme = "hyde-hyde"
+# summarylength = 30
+# paginate = 5
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+## Site Settings
+[params]
+    author = "Nicholas Spyrison"
+    title = "Nicholas Spyrison"
+    description = "PhD student, Monash University"
+    authorimage = "/img/hugo.png"
+    dateformat = "Jan 2, 2006"
+    highlightjs = true
+    highlightjsstyle = "github"
+    toc = "none"#Table of contents: "none"", "hugo", or "tocbot"
+
+## Social Accounts
+[params.social]
+    github = "nspyrison"
+    linkedin = "nspyrison"
+    twitter = "@nspyrison"
+    email = "spyrison@gmail.com"
+    #googlescholar = "https://scholar.google.com.au/citations?user=zzM9WVEAAAAJ&hl=en"
+
+## Main Menu
+#[[menu.main]]
+#    name = "Posts"
+#    weight = 100
+#    identifier = "posts"
+#    url = "/posts/"
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
+#[[menu.main]]
+#    name = "About"
+#    identifier = "about"
+#    weight = 300
+#    url = "/about/"
