@@ -1,10 +1,13 @@
 ## Basic Configuration
 #browseURL("https://alison.rbind.io/post/up-and-running-with-blogdown/")
 baseurl = "https://NicholasSpyrison.com/"
+  # Use "/" or "https://NicholasSpyrison.com/".
 languageCode = "en"
 
 title = "Nicholas Spyrison"
 theme = "hyde-hyde"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 # summarylength = 30
 # paginate = 5
 
@@ -18,11 +21,11 @@ theme = "hyde-hyde"
     author = "Nicholas Spyrison"
     title = "Nicholas Spyrison"
     description = "PhD student, Monash University"
-    authorimage = "/img/hugo.png"
+    authorimage = "/img/_ns_cover.jpeg"
     dateformat = "Jan 2, 2006"
     highlightjs = true
     highlightjsstyle = "github"
-    toc = "none"#Table of contents: "none"", "hugo", or "tocbot"
+    toc = "none" # Table of contents: "none"", "hugo", or "tocbot"
 
 ## Social Accounts
 [params.social]
