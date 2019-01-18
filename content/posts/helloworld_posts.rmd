@@ -1,0 +1,27 @@
+---
+author: "Nicholas Spyrison"
+date: 2019-01-18
+linktitle: Hello World (posts.rmd)
+title: Hello World (posts.rmd)
+categories: [ "Development", "hugo" ]
+tags: ["hugo", "theme", "html", "css"]
+weight: 10
+---
+
+
+## Introduction
+
+I just came here to say... (I want a cola, cola, cola...)
+
+
+```{r}
+"hello world"
+
+"We like .rmd as much as we do .md?"
+"hurray!!"
+```
+
+![](https://i.redd.it/jle76y13zis11.gif)
+
+
+*ps:* Did you know this guy wrote over 1k lines in 1 .md example, for a 34 min read, bless people.

@@ -1,0 +1,18 @@
+---
+title: "Hello world (portfolio_.rmd)"
+description: "Look at me still describing when there's science to do"
+link: https://github.com/htr3n/dera
+screenshot: helloworld_portfolio.png
+date: '2018-06-21'
+layout: 'portfolio'
+---
+
+here is some text and all. But, we all really just want to know what chunk r looks like. **Bold** *moves* _{aww yiss}
+
+``` {r}
+1==1
+```
+
+Who knew?
+
+!()[https://media0.giphy.com/media/wHvrYA0YI4BCo/source.gif]
