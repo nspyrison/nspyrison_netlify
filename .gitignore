@@ -5,5 +5,8 @@
 blogdown
 .DS_Store
   # if a windows user, Thumbs.db instead
+Thumbs.db
+  # why not both? @dora.png
 /public/
   # if using Netlify
+/content/zArchive
