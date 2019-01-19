@@ -10,3 +10,6 @@ Resources:
 
 
 ps: netliify intended, use nspyrison.github.io for github pages.
+
+
+Netlify build error 255. trying to change the HUGO_Version on netlify from .42 to .19
