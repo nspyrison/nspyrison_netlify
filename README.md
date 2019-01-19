@@ -10,11 +10,11 @@ Standing up a blogdown site.
 
 
 ### Lessons learned:
-* Don't use nspyrison.github.io for agnosticism, for your first netliify go. 
-    * May be taking Emi's hard path inadvertently.
+* Don't use nspyrison.github.io for agnosticism, for your first netliify go
+    * May be taking Emi's hard path inadvertently (netlify and github at the same time)
 * Fixxing Netlify build error 255:
     * **tldr:**
-        1. Check your theme's min hugo versions  [here](https://themes.gohugo.io/)
+        1. Check your theme's min hugo versions [here](https://themes.gohugo.io/)
         2. In R run `blogdown::hugo_version()`
             * if you need a newer ver run `blogdown::install_hugo()`
         3. On Netlify navigate to Settings (tab along top) > Build & Deploy (menu on left) > scroll down to the Build environment variables section > Edit variables (button)
