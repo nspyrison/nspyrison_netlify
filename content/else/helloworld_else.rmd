@@ -1,0 +1,23 @@
+---
+author: "Nicholas Spyrison"
+date: 2019-01-18
+linktitle: Hello World (posts.rmd)
+title: Hello World (posts.rmd)
+categories: [ "Development", "hugo" ]
+tags: ["hugo", "theme", "html", "css"]
+weight: 10
+---
+
+
+## Introduction
+
+Well,
+I'm a fry cook and I don't really know where that leaves us.
+
+
+```{r}
+pi*10
+```
+
+![](https://media.giphy.com/media/HlYYLuI3WsAW4/giphy.gif)
+
