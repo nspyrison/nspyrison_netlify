@@ -1,7 +1,7 @@
 ## Basic Configuration
 #browseURL("https://alison.rbind.io/post/up-and-running-with-blogdown/")
-baseurl = "https://NicholasSpyrison.com/"
-  # Use "/" or "https://NicholasSpyrison.com/".
+baseurl = "https://nspyrison.netlify.com/"
+  # Use "/" or "https://nspyrison.netlify.com/".
 languageCode = "en"
 
 title = "Nicholas Spyrison"
