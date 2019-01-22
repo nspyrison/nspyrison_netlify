@@ -1,11 +1,14 @@
 ---
 author: "Nicholas Spyrison"
 date: 2019-01-18
-linktitle: Hello World (else) "Linktitle"
-title: Hello World (else) "title"
+linktitle: Hello World (else)
+title: Hello World (else)
 categories: [ "Development", "hugo" ]
 tags: ["hugo", "theme", "html", "css"]
 weight: 10
+output: 
+  html_document:
+    self_contained: no
 ---
 
 
@@ -25,4 +28,16 @@ pi*10
 ![](https://media.giphy.com/media/HlYYLuI3WsAW4/giphy.gif)
 
 ### from local .gif
-![](helloworld_gif.gif)
+
+**Lesson leanred**
+* images belong in /static/ and are harder to work with, 
+* Blogdown executes in a different work directory, so to speak
+
+for example: 
+image `helloworld_gif.gif` \\ 
+should reside in `./static/else/helloworld_gif.gif` \\
+and be referenced as `/else/helloworld_gif.gif` \\
+although in .rmd we would use `../../static/else/helloworld_gif.gif`
+
+using `/else/helloworld_gif.gif`
+![](/else/helloworld_gif.gif)

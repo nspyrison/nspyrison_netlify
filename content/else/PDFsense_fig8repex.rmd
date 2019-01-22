@@ -14,7 +14,8 @@ weight: 10
 [google scholar paper link](https://scholar.google.com/scholar?cluster=9110690189452049647&hl=en&as_sdt=0,5)
 
 .gif works locally. But, not on site?
-![](PDFsense_quasiFig8.gif)
+![](/else/PDFsense_quasiFig8.gif)
+![](/else/PDFsense_quasiFig8.gif)
 
 ### Pseudo code
 ```{r, eval=F, include=T}

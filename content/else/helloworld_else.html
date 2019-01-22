@@ -1,11 +1,14 @@
 ---
 author: "Nicholas Spyrison"
 date: 2019-01-18
-linktitle: Hello World (else) "Linktitle"
-title: Hello World (else) "title"
+linktitle: Hello World (else)
+title: Hello World (else)
 categories: [ "Development", "hugo" ]
 tags: ["hugo", "theme", "html", "css"]
 weight: 10
+output: 
+  html_document:
+    self_contained: no
 ---
 
 
@@ -26,9 +29,8 @@ weight: 10
 </div>
 <div id="from-local-.gif" class="section level3">
 <h3>from local .gif</h3>
-<div class="figure">
-<img src="helloworld_gif.gif" />
-
-</div>
+<p><strong>Lesson leanred</strong> * images belong in /static/ and are harder to work with, * Blogdown executes in a different work directory, so to speak</p>
+<p>for example: image <code>helloworld_gif.gif</code> \ should reside in <code>./static/else/helloworld_gif.gif</code> \ and be referenced as <code>/else/helloworld_gif.gif</code> \ although in .rmd we would use <code>../../static/else/helloworld_gif.gif</code></p>
+<p>using <code>/else/helloworld_gif.gif</code> <img src="/else/helloworld_gif.gif" /></p>
 </div>
 </div>
