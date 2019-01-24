@@ -9,3 +9,4 @@ Thumbs.db
   # why not both? @dora.png
 /public/
   # if using Netlify
+/data/
