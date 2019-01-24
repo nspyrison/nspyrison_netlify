@@ -26,17 +26,19 @@ load("../../data/PDFSense_fig8l_basis.rda")
 # Fig 7, subset to ATLAS7old and ATLAS7new
 view_basis(fig7_basis)
 play_manual_tour(data = jetsProj_sub[, 1:4], basis = fig7_basis, manip_var = 3,
+                 cat_var = jetsProj_sub$exp, render_type = render_gganimate)
+play_manual_tour(data = jetsProj_sub[, 1:4], basis = fig7_basis, manip_var = 3,
                  cat_var = jetsProj_sub$exp)
-play_manual_tour(data = jetsProj_sub[, 1:4], basis = fig7_basis, manip_var = 4,
-                 cat_var = jetsProj_sub$exp)
+# play_manual_tour(data = jetsProj_sub[, 1:4], basis = fig7_basis, manip_var = 4,
+#                  cat_var = jetsProj_sub$exp)
 ```
 
 ### Manual Tours from figure 8
 ```{r, warning=F}
 # Fig 8,
 view_basis(fig8l_basis)
-play_manual_tour(data = grDIScenter[, 1:6], basis = fig8l_basis, manip_var = 6,
-                 cat_var = grDIScenter$disID)
-play_manual_tour(data = grDIScenter[, 1:6], basis = fig8l_basis, manip_var = 5,
-                 cat_var = grDIScenter$disID)
+# play_manual_tour(data = grDIScenter[, 1:6], basis = fig8l_basis, manip_var = 6,
+#                  cat_var = grDIScenter$disID)
+# play_manual_tour(data = grDIScenter[, 1:6], basis = fig8l_basis, manip_var = 5,
+#                  cat_var = grDIScenter$disID)
 ```
