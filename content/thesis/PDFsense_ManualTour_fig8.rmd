@@ -1,0 +1,46 @@
+---
+author: "Nicholas Spyrison"
+date: 2019-01-26
+linktitle: PDF Sense Manual tour - Figure 7
+title: PDF Sense Manual tour - 
+# categories: [ "Development", "hugo" ]
+# tags: ["hugo", "theme", "html", "css"]
+# weight: 10
+---
+```{r, include=F}
+library(spinifex)
+# # fig 7
+# load("../../data/jetsProj_sub.rda")
+# load("../../data/fig7_basis_1off.rda")
+# fig 8
+load("../../data/grDIScenter.rda")
+load("../../data/PDFSense_fig8l_basis.rda")
+```
+
+
+### Manual Tours of data in  figure 8
+```{r, warning=F}
+# Fig 8 left, _center data.
+view_basis(fig8l_basis, labels = colnames(grDIScenter[, 1:6]))
+play_manual_tour(data = grDIScenter[, 1:6], basis = fig8l_basis, manip_var = 6,
+                 cat_var = grDIScenter$disID)
+```
+
+manipulating PC6 rotates variation of 'dimuonSIDIS' experiements out of the projection.
+
+```{r}
+play_manual_tour(data = grDIScenter[, 1:6], basis = fig8l_basis, manip_var = 5,
+                 cat_var = grDIScenter$disID)
+```
+
+manipulating PC5 rotates some of variation of 'DIS HERA1+2' experiements out of the projection.
+
+
+[PDS Sense paper - google scholar link](https://scholar.google.com/scholar?cluster=9110690189452049647&hl=en&as_sdt=0,5)
+
+
+
+
+
+
+

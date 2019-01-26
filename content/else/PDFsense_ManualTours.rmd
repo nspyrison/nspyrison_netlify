@@ -11,7 +11,7 @@ weight: 10
 library(spinifex)
 # fig 7
 load("../../data/jetsProj_sub.rda")
-load("../../data/PDFSense_fig7_basis.rda")
+load("../../data/fig7_basis_1off.rda")
 # fig 8
 load("../../data/grDIScenter.rda")
 load("../../data/PDFSense_fig8l_basis.rda")
