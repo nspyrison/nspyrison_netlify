@@ -21,11 +21,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     author = "Nicholas Spyrison"
     title = "Nicholas Spyrison"
     description = "PhD student, Monash University"
-    authorimage = "/img/hugo.png" # "/img/_ns_cover.jpeg" # "/img/hugo.png"
+    authorimage = "/img/_ns_cover.jpeg" # "/img/hugo.png" #
     dateformat = "Jan 2, 2006"
     highlightjs = true
     highlightjsstyle = "github"
-    toc = "none" # Table of contents: "none"", "hugo", or "tocbot"
+    toc = "none" # "none"", "hugo", or "tocbot"
 
 ## Social Accounts
 [params.social]
@@ -52,7 +52,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 300
     url = "/about/"
 [[menu.main]]
+    name = "thesis"
+    identifier = "thesis"
+    weight = 350
+    url = "/thesis/"
+[[menu.main]]
     name = "else"
     identifier = "else"
     weight = 400
     url = "/else/"
+
