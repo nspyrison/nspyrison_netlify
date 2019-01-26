@@ -1,8 +1,8 @@
 ---
 author: "Nicholas Spyrison"
 date: 2019-01-26
-linktitle: PDF Sense Manual tour - Figure 7
-title: PDF Sense Manual tour - 
+title: PDF Sense Manual tour - Figure 8
+# linktitle: PDF Sense Manual tour - Figure 8
 # categories: [ "Development", "hugo" ]
 # tags: ["hugo", "theme", "html", "css"]
 # weight: 10
