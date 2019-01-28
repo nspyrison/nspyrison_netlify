@@ -1,0 +1,30 @@
+---
+author: "Nicholas Spyrison"
+date: Jan 2019
+title: PDFSense Figure 8, manual tour on PC6
+---
+
+```{r, echo=F}
+# Fig 8
+load("../../data/grDIScenter.rda")
+load("../../data/PDFSense_fig8l_basis.rda")
+
+PDF8_bas <- fig8l_basis
+PDF8_dat <- tourr::rescale(grDIScenter[, 1:6])
+PDF8_cat <- factor(grDIScenter$disID)
+PDF8_m_var <- 6
+PDF8_mtour <- manual_tour(basis = PDF8_bas, manip_var = PDF8_m_var)
+play_manual_tour(data = PDF8_dat, basis = PDF8_bas, manip_var = PDF8_m_var, 
+                 angle = .28, axes="bottomleft", cat_var = PDF8_cat)
+
+##M_VAR, RESULT
+# 1, green jet.
+# 2, poor
+# 3, black
+# 4, plane
+# 5, black and plane
+# 6, green and plane
+```
+
+
+[PDSSense paper - google scholar link](https://scholar.google.com/scholar?cluster=9110690189452049647&hl=en&as_sdt=0,5)
