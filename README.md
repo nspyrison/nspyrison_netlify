@@ -20,3 +20,15 @@ Standing up a blogdown site.
         3. On Netlify navigate to Settings (tab along top) > Build & Deploy (menu on left) > scroll down to the Build environment variables section > Edit variables (button)
             * edit or add a Key of "HUGO_VERSION" and Value of your hugo version (*ie.* "0.53")
     * For more through documentation, see Mara's [post](https://maraaverick.rbind.io/2017/10/updating-blogdown-hugo-version-netlify/)
+* Errors kniting with smalle .rda (6x2 basis):
+    * can knit .rmd
+    * cannot `blogdown::serve_site()`; below error
+    * cannot Build, `Build Website`; below error
+    * workflow:
+        1. Build, More, Clean all
+        2. `blogdown::build_site()`, wait for build, takes a few min for me building 70 MB of manaual tours. Runs on console.
+        3. Push to Github, hope netlify builds. Works as of SHA 6eebb990.
+        * *note* no offline dev; changes are now "devele-prod"
+    * Error: Error building site: "C:\Users\<some path>\dir\data\basis.rda:1:1": unmarshal of format "" is not supported
+Building sites â€¦ Total in 182 ms
+
