@@ -1,0 +1,34 @@
+---
+author: "Nicholas Spyrison"
+date: Jan 2019
+title: DIS cluster, manual tour on PC5
+---
+
+```{r, echo=F}
+# Fig 8
+load("../../data/grDIScenter.rda")
+load("../../data/PDFSense_fig8l_basis.rda")
+
+PDF8_bas <- fig8l_basis
+PDF8_dat <- tourr::rescale(grDIScenter[, 1:6])
+PDF8_cat <- factor(grDIScenter$disID)
+PDF8_m_var <- 5
+PDF8_mtour <- manual_tour(basis = PDF8_bas, manip_var = PDF8_m_var)
+play_manual_tour(data = PDF8_dat, basis = PDF8_bas, manip_var = PDF8_m_var, 
+                 angle = .28, axes="bottomleft", cat_var = PDF8_cat)
+
+##DIS cluster, fig 8 of cook_dynamical_2018
+##M_VAR, RESULT
+# 1, green jet.
+# 2, poor
+# 3, black
+# 4, plane
+# 5, black and plane
+# 6, green and plane
+```
+
+Data and PDFSense:
+Wang, B.-T., Hobbs, T. J., Doyle, S., Gao, J., Hou, T.-J., Nadolsky, P. M., & Olness, F. I. (2018). Visualizing the sensitivity of hadronic experiments to nucleon structure. ArXiv Preprint ArXiv:1803.02777.
+
+Touring PDFSense data:
+Cook, D., Laa, U., & Valencia, G. (2018). Dynamical projections for the visualization of PDFSense data. Eur. Phys. J. C, 78(9), 742.
