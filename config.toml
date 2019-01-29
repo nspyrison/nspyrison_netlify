@@ -36,16 +36,16 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     #googlescholar = "https://scholar.google.com.au/citations?user=zzM9WVEAAAAJ&hl=en"
 
 # Main Menu
-[[menu.main]]
-    name = "Posts"
-    weight = 100
-    identifier = "posts"
-    url = "/posts/"
-[[menu.main]]
-    name = "Portfolio"
-    identifier = "portfolio"
-    weight = 200
-    url = "/portfolio/"
+# [[menu.main]]
+#     name = "Posts"
+#     weight = 100
+#     identifier = "posts"
+#     url = "/posts/"
+# [[menu.main]]
+#     name = "Portfolio"
+#     identifier = "portfolio"
+#     weight = 200
+#     url = "/portfolio/"
 [[menu.main]]
     name = "About"
     identifier = "about"
