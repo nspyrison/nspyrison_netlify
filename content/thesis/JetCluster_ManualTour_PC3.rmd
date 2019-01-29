@@ -5,6 +5,7 @@ title: Jet cluster, manual tour on PC3
 ---
 
 ```{r, echo=F}
+library(spinifex)
 # Fig 7, Jet cluster subset to ATLAS7old and ATLAS7new
 load("../../data/JetCluster_sub.rda")
 load("../../data/JetCluster_basis.rda")

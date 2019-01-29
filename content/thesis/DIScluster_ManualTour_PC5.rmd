@@ -5,6 +5,7 @@ title: DIS cluster, manual tour on PC5
 ---
 
 ```{r, echo=F}
+library(spinifex)
 # DIS Cluster, (Fig 8)
 load("../../data/grDIScenter.rda")
 load("../../data/DIScluster_centered_basis.rda")
