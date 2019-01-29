@@ -6,16 +6,16 @@ title: Jet cluster, manual tour on PC4
 
 ```{r, echo=F}
 # Fig 7, Jet cluster subset to ATLAS7old and ATLAS7new
-load("../../data/jetsProj_sub.rda")
-load("../../data/PDFSense_fig7_basis.rda")
+load("../../data/JetCluster_sub.rda")
+load("../../data/JetCluster_basis.rda")
 
-PDF7_bas <- fig7_basis
-PDF7_dat <- tourr::rescale(jetsProj_sub[, 1:4])
-PDF7_cat <- jetsProj_sub$exp
-PDF7_m_var <- 4
-PDF7_mtour <- manual_tour(basis = PDF7_bas, manip_var = PDF7_m_var)
-play_manual_tour(data = PDF7_dat, basis = PDF7_bas, manip_var = PDF7_m_var, 
-                 angle = .28, axes="bottomleft", cat_var = PDF7_cat)
+jet_bas   <- JetCluster_basis
+jet_dat   <- tourr::rescale(JetCluster_sub[, 1:4])
+jet_cat   <- JetCluster_sub$exp
+jet_mvar  <- 4
+jet_mtour <- manual_tour(basis = jet_bas, manip_var = jet_mvar)
+play_manual_tour(data = jet_dat, basis = jet_bas, manip_var = jet_mvar, 
+                 angle = .28, axes = "bottomleft", cat_var = jet_cat)
 
 ##Jet Cluster, fig 7 of cook_dynamical_2018
 ##M_VAR, RESULT
@@ -26,7 +26,9 @@ play_manual_tour(data = PDF7_dat, basis = PDF7_bas, manip_var = PDF7_m_var,
 ```
 
 Data and PDFSense:
+
 Wang, B.-T., Hobbs, T. J., Doyle, S., Gao, J., Hou, T.-J., Nadolsky, P. M., & Olness, F. I. (2018). Visualizing the sensitivity of hadronic experiments to nucleon structure. ArXiv Preprint ArXiv:1803.02777.
 
 Touring PDFSense data:
+
 Cook, D., Laa, U., & Valencia, G. (2018). Dynamical projections for the visualization of PDFSense data. Eur. Phys. J. C, 78(9), 742.

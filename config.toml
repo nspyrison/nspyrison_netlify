@@ -25,7 +25,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     dateformat = "Jan 2, 2006"
     highlightjs = true
     highlightjsstyle = "github"
-    toc = "none" # "none"", "hugo", or "tocbot"
+    #toc = "none" # "none"", "hugo", or "tocbot"
 
 ## Social Accounts
 [params.social]

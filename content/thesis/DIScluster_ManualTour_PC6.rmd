@@ -5,17 +5,18 @@ title: DIS cluster, manual tour on PC6
 ---
 
 ```{r, echo=F}
-# Fig 8
+# DIS Cluster, (Fig 8)
 load("../../data/grDIScenter.rda")
-load("../../data/PDFSense_fig8l_basis.rda")
+load("../../data/DIScluster_centered_basis.rda")
 
-PDF8_bas <- fig8l_basis
-PDF8_dat <- tourr::rescale(grDIScenter[, 1:6])
-PDF8_cat <- factor(grDIScenter$disID)
-PDF8_m_var <- 6
-PDF8_mtour <- manual_tour(basis = PDF8_bas, manip_var = PDF8_m_var)
-play_manual_tour(data = PDF8_dat, basis = PDF8_bas, manip_var = PDF8_m_var, 
-                 angle = .28, axes="bottomleft", cat_var = PDF8_cat)
+DIS_bas   <- DIScluster_centered_basis
+DIS_dat   <- tourr::rescale(grDIScenter[, 1:6])
+DIS_cat   <- factor(grDIScenter$disID)
+DIS_mvar  <- 6
+DIS_mtour <- manual_tour(basis = DIS_bas, manip_var = DIS_mvar)
+
+play_manual_tour(data = DIS_dat, basis = DIS_bas, manip_var = DIS_mvar, 
+                 angle = .28, axes="bottomleft", cat_var = DIS_cat)
 
 ##DIS cluster, fig 8 of cook_dynamical_2018
 ##M_VAR, RESULT
@@ -28,7 +29,9 @@ play_manual_tour(data = PDF8_dat, basis = PDF8_bas, manip_var = PDF8_m_var,
 ```
 
 Data and PDFSense:
+
 Wang, B.-T., Hobbs, T. J., Doyle, S., Gao, J., Hou, T.-J., Nadolsky, P. M., & Olness, F. I. (2018). Visualizing the sensitivity of hadronic experiments to nucleon structure. ArXiv Preprint ArXiv:1803.02777.
 
 Touring PDFSense data:
+
 Cook, D., Laa, U., & Valencia, G. (2018). Dynamical projections for the visualization of PDFSense data. Eur. Phys. J. C, 78(9), 742.
