@@ -1,7 +1,7 @@
 ---
 author: "Nicholas Spyrison"
 date: Jan 2019
-title: DIS cluster, manual tour on PC3
+title: DIS cluster, manual tour on PC4
 ---
 
 ```{r, echo=F}
@@ -13,7 +13,7 @@ load("../../data/DIScluster_centered_basis.rda")
 DIS_bas   <- DIScluster_centered_basis
 DIS_dat   <- tourr::rescale(grDIScenter[, 1:6])
 DIS_cat   <- factor(grDIScenter$disID)
-DIS_mvar  <- 3
+DIS_mvar  <- 4
 DIS_mtour <- manual_tour(basis = DIS_bas, manip_var = DIS_mvar)
 
 play_manual_tour(data = DIS_dat, basis = DIS_bas, manip_var = DIS_mvar, 
