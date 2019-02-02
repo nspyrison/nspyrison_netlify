@@ -4,6 +4,9 @@ date: Jan 2019
 title: DIS cluster, manual tour on PC6
 ---
 
+DIS cluster colored by experiment type: ‘DIS HERA1+2’
+in green, ‘dimuon SIDIS’ in purple, and ‘charm SIDIS’ in orange.
+
 ```{r, echo=F}
 library(spinifex)
 # DIS Cluster, (Fig 8)
