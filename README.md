@@ -27,7 +27,7 @@ Standing up a blogdown site.
     * workflow:
         1. Build, More, Clean all
         2. `blogdown::build_site()`, wait for build, takes a few min for me building 70 MB of manaual tours. Runs on console.
-        3. Push to Github, hope netlify builds. Works as of SHA 6eebb990.
+        3. Push to Github (use kraken or terminal as sizes are large), hope netlify builds. Works as of SHA 6eebb990.
         * *note* no offline dev; changes are now "devele-prod"
     * Error: Error building site: "C:\Users\<some path>\dir\data\basis.rda:1:1": unmarshal of format "" is not supported
 Building sites â€¦ Total in 182 ms
