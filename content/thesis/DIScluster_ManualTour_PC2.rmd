@@ -1,6 +1,7 @@
 ---
 author: "Nicholas Spyrison"
 date: Jan 2019
+linktitle: DIS cluster, manual tour on PC2
 title: DIS cluster, manual tour on PC2
 ---
 

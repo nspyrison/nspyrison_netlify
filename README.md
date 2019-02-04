@@ -25,8 +25,8 @@ Standing up a blogdown site.
     * cannot `blogdown::serve_site()`; below error
     * cannot Build, `Build Website`; below error
     * workflow:
-        1. Build, More, Clean all
-        2. `blogdown::build_site()`, wait for build, takes a few min for me building 70 MB of manaual tours. Runs on console.
+        1. `rmarkdown::clean_site()` (Build, More, Clean all)
+        2. `blogdown::build_site()` , wait for build, takes a few min for me building 70 MB of manaual tours. Runs on console. (NOT build_dir(), do not run from build tab.)
         3. Push to Github (use kraken or terminal as sizes are large), hope netlify builds. Works as of SHA 6eebb990.
         * *note* no offline dev; changes are now "devele-prod"
     * Error: Error building site: "C:\Users\<some path>\dir\data\basis.rda:1:1": unmarshal of format "" is not supported

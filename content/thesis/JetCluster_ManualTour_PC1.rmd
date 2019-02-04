@@ -1,7 +1,12 @@
 ---
 author: "Nicholas Spyrison"
 date: Jan 2019
+linktitle: Jet cluster, manual tour on PC1
 title: Jet cluster, manual tour on PC1
+weight: 10
+output: 
+  html_document:
+    self_contained: no
 ---
 
 Jet cluster colored by experiment type: ‘ATLAS7new’

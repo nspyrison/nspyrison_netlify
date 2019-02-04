@@ -1,6 +1,7 @@
 ---
 author: "Nicholas Spyrison"
 date: Jan 2019
+linktitle: Jet cluster, manual tour on PC1
 title: Jet cluster, manual tour on PC2
 ---
 
