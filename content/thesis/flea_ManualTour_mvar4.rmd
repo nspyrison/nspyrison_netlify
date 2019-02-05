@@ -24,3 +24,6 @@ f_mvar <- 4
 play_manual_tour(data = f_dat, basis = f_bas, manip_var = f_mvar,
                  angle = .28, axes="bottomleft", cat_var = f_cat)
 ```
+
+Directory to the other manual tours: https://nspyrison.netlify.com/thesis/
+

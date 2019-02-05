@@ -3,7 +3,7 @@ author: "Nicholas Spyrison"
 date: Jan 2019
 linktitle: Jet cluster, manual tour on PC1
 title: Jet cluster, manual tour on PC1
-weight: 10
+weight: 110
 output: 
   html_document:
     self_contained: no
@@ -33,6 +33,9 @@ play_manual_tour(data = jet_dat, basis = jet_bas, manip_var = jet_mvar,
 # 3, *best
 # 4, *worst
 ```
+
+Directory to the other manual tours: https://nspyrison.netlify.com/thesis/
+
 
 Data and PDFSense:
 
