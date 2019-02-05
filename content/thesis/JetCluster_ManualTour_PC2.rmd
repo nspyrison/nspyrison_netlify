@@ -20,7 +20,7 @@ jet_cat   <- JetCluster_sub$exp
 jet_mvar  <- 2
 jet_mtour <- manual_tour(basis = jet_bas, manip_var = jet_mvar)
 play_manual_tour(data = jet_dat, basis = jet_bas, manip_var = jet_mvar, 
-                 angle = .28, axes = "bottomleft", cat_var = jet_cat)
+                 angle = .26, axes = "bottomleft", cat_var = jet_cat)
 
 ##Jet Cluster, fig 7 of cook_dynamical_2018
 ##M_VAR, RESULT
