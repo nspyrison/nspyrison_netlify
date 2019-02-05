@@ -2,6 +2,10 @@
 author: "Nicholas Spyrison"
 date: Jan 2019
 title: Flea data, manual tour on var 4
+weight: 10
+output: 
+  html_document:
+    self_contained: no
 ---
 
 Standardized flea data

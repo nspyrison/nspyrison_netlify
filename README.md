@@ -22,8 +22,7 @@ Standing up a blogdown site.
     * For more through documentation, see Mara's [post](https://maraaverick.rbind.io/2017/10/updating-blogdown-hugo-version-netlify/)
 * Errors kniting with smalle .rda (6x2 basis):
     * can knit .rmd
-    * cannot `blogdown::serve_site()`; below error
-    * cannot Build, `Build Website`; below error
+    * cannot `blogdown::serve_site()` or Build, Build Website; see below error
     * workflow:
         1. `rmarkdown::clean_site()` (Build, More, Clean all)
         2. `blogdown::build_site()` , wait for build, takes a few min for me building 70 MB of manaual tours. Runs on console. (NOT build_dir(), do not run from build tab.)

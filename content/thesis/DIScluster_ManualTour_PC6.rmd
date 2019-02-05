@@ -3,6 +3,10 @@ author: "Nicholas Spyrison"
 date: Jan 2019
 linktitle: DIS cluster, manual tour on PC6
 title: DIS cluster, manual tour on PC6
+weight: 10
+output: 
+  html_document:
+    self_contained: no
 ---
 
 DIS cluster colored by experiment type: ‘DIS HERA1+2’
