@@ -15,8 +15,8 @@ in green, ‘dimuon SIDIS’ in purple, and ‘charm SIDIS’ in orange.
 ```{r, echo=F}
 suppressPackageStartupMessages(library(spinifex))
 # DIS Cluster, (Fig 8)
-load("../../data/grDIScenter.rda")
-load("../../data/DIScluster_centered_basis.rda")
+load("../../thesis_data/grDIScenter.rda")
+load("../../thesis_data/DIScluster_centered_basis.rda")
 
 DIS_bas   <- DIScluster_centered_basis
 DIS_dat   <- tourr::rescale(grDIScenter[, 1:6])

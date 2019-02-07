@@ -29,15 +29,17 @@ pi*10
 
 ### from local .gif
 
-**Lesson leanred**
+**Lessons leanred:**
+
 * images belong in /static/ and are harder to work with, 
 * Blogdown executes in a different work directory, so to speak
 
-for example: 
-image `helloworld_gif.gif` \\ 
-should reside in `./static/else/helloworld_gif.gif` \\
-and be referenced as `/else/helloworld_gif.gif` \\
-although in .rmd we would use `../../static/else/helloworld_gif.gif`
+for example:
+
+- image `helloworld_gif.gif` \\ 
+- should reside in `./static/else/helloworld_gif.gif` \\
+- and be referenced as `/else/helloworld_gif.gif` \\
+- although in .rmd we would use `../../static/else/helloworld_gif.gif`
 
 using `/else/helloworld_gif.gif`
 ![](/else/helloworld_gif.gif)
