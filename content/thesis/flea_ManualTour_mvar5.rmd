@@ -1,7 +1,7 @@
 ---
 author: "Nicholas Spyrison"
 date: Jan 2019
-title: Flea data, manual tour on var 4
+title: Flea data, manual tour on var 5
 weight: 10
 output: 
   html_document:
@@ -16,8 +16,7 @@ f_dat  <- rescale(flea[,1:6])
 f_cat  <- as.factor(flea$species)
 f_path <- save_history(f_dat, guided_tour(holes()))
 f_bas  <- matrix(f_path[,, max(dim(f_path)[3])], ncol=2)
-f_bas  <- tourr::rescale(f_bas)
-f_mvar <- 4
+f_mvar <- 5
 ```
 
 ```{r, echo=F}
