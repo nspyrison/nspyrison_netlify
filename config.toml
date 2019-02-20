@@ -51,11 +51,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     identifier = "about"
     weight = 300
     url = "/about/"
-[[menu.main]]
-    name = "Presentations"
-    identifier = "presentations"
-    weight = 400
-    url = "/presentation/"
+#[[menu.main]]
+#    name = "Presentations"
+#    identifier = "presentations"
+#    weight = 400
+#    url = "/presentation/"
 [[menu.main]]
     name = "Thesis"
     identifier = "thesis"
