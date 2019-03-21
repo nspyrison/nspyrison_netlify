@@ -32,3 +32,6 @@ Standing up a blogdown site.
 * Hidden spelling errors (ie. Theses from thesis), the folders are automatically made plural, space characters in folders doesn't work either.
     * solution: leaving as Theses for now. may change later.
 
+"When in doubt, upgrade" -Yihui Xie
+`update.packages(ask = FALSE, checkBuilt = TRUE)`
+(make sure that lib.path is not versioned)
