@@ -11,7 +11,7 @@ output:
 Jet cluster colored by experiment type: ‘ATLAS7new’
 in green and ‘ATLAS7old’ in orange
 
-```{r, echo=F}
+```{r, echo=F, message=F}
 suppressPackageStartupMessages(library(spinifex))
 # Fig 7, Jet cluster subset to ATLAS7old and ATLAS7new
 load("../../thesis_data/JetCluster_sub.rda")
@@ -19,11 +19,11 @@ load("../../thesis_data/JetCluster_basis.rda")
 
 jet_bas   <- JetCluster_basis
 jet_dat   <- tourr::rescale(JetCluster_sub[, 1:4])
-jet_cat   <- JetCluster_sub$exp
+jet_cat   <- factor(JetCluster_sub$exp)
 jet_mvar  <- 4
 jet_mtour <- manual_tour(basis = jet_bas, manip_var = jet_mvar)
 play_manual_tour(data = jet_dat, basis = jet_bas, manip_var = jet_mvar, 
-                 angle = .26, axes = "bottomleft", cat_var = jet_cat)
+                 angle = .26, axes = "bottomleft", col = jet_cat)
 
 ##Jet Cluster, fig 7 of cook_dynamical_2018
 ##M_VAR, RESULT
