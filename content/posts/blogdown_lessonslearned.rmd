@@ -3,14 +3,12 @@ author: "Nicholas Spyrison"
 date: 2019-02-01
 linktitle: Blogdown -- lessons learned
 title: Blogdown -- lessons learned
-#categories: [ "Development", "hugo" ]
-#tags: ["hugo", "theme", "html", "css"]
 weight: 10
 ---
 
 This is my two cents and notes on some of the struggles I've come across standing up my site. I hope this helps others. There is a wealth of great resources for getting started (see links below).   
 
-## Blogdown resources:
+## Resources:
 * https://alison.rbind.io/post/up-and-running-with-blogdown/ -- Alison's Up and running, the go to that everyone points back to
 * https://bookdown.org/yihui/blogdown/ -- Yihui's blogdown
 * https://emitanaka.github.io/talk/2018-08-28-rladies_melbourne_blogdown/ -- Emi's R-Ladies Melbourne Blogdown talk

@@ -1,0 +1,30 @@
+---
+author: "Nicholas Spyrison"
+date: 2019-01-18
+linktitle: Hello world -- blogdown
+title: Hello world -- blogdown
+# categories: [ "Development", "hugo" ]
+# tags: ["hugo", "theme", "html", "css"]
+weight: 10
+---
+
+# Gist
+
+Blogdown accepts .md or .rmd files, write as though it's any other .rmd file. Keep in mind the [cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) and your favorite .rmd settings.
+
+
+## Introduction
+
+Hello world for my blogdown site.
+
+
+```{r}
+"hello world, now in an `R` chunk!"
+
+head(mtcars)
+```
+
+Online image hosting:
+
+![](https://i.redd.it/jle76y13zis11.gif)
+
