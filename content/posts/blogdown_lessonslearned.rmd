@@ -9,7 +9,7 @@ weight: 10
 This is my two cents and notes on some of the struggles I've come across standing up my site. I hope this helps others. There is a wealth of great resources for getting started (see links below).   
 
 ## Resources:
-* https://alison.rbind.io/post/up-and-running-with-blogdown/ -- Alison's Up and running, the go to that everyone points back to
+* https://alison.rbind.io/post/up-and-running-with-blogdown/ -- Alison's Up and running, the go to guide
 * https://bookdown.org/yihui/blogdown/ -- Yihui's blogdown
 * https://emitanaka.github.io/talk/2018-08-28-rladies_melbourne_blogdown/ -- Emi's R-Ladies Melbourne Blogdown talk
 * https://github.com/rstudio-education/arm-workshop-rsc2019/issues/34 -- Hosting via netlify links
@@ -43,7 +43,10 @@ This is my two cents and notes on some of the struggles I've come across standin
 <!-- * Hidden spelling errors (ie. Theses from thesis), the folders are automatically made plural, space characters in folders don't work either. -->
 <!--     * solution: leaving as Theses for now. may change later. -->
 
-"When in doubt, upgrade" -Yihui Xie
+> When in doubt, upgrade.
+
+-Yihui Xie
+
 `update.packages(ask = FALSE, checkBuilt = TRUE)`
 (make sure that lib.path is not versioned)
 

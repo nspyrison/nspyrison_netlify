@@ -20,7 +20,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
     author = "Nicholas Spyrison"
     title = "Nicholas Spyrison"
-    description = "PhD student, Monash University"
+    description = "PhD candidate, Monash University"
     authorimage = "/img/_ns_cover.jpeg" # "/img/hugo.png" #
     dateformat = "Jan 2, 2006"
     highlightjs = true
@@ -41,11 +41,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 100
     identifier = "posts"
     url = "/posts/"
-# [[menu.main]]
-#     name = "Portfolio"
-#     identifier = "portfolio"
-#     weight = 200
-#     url = "/portfolio/"
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
 [[menu.main]]
     name = "About"
     identifier = "about"
