@@ -8,22 +8,14 @@ layout: 'portfolio'
 ---
 
 Shadow puppets are a projection of a 3D object down to a 2D shadow. In the same way, you can project higher data spaces down to 2D. Information about data structure is revealed by rotating the data and watching the shadow change!
-`spinifex` is an open source R package that enables manual control of a linear projection of multivariate data. 
+`spinifex` is an open-source R package that enables manual control of a linear projection of multivariate data. 
 
 *why, thou?*
-Using numeric statistics often leaves obvious visual trends overlooked, this is why data visualization is so important! Unfortunatly graphing at more than 3 variables at a time is difficult. This is where  dimension reduction is used! 
+Using numeric statistics often leaves obvious visual trends overlooked, this is why data visualization is so important! Unfortunately, graphing at more than 3 variables at a time is difficult. This is where dimension reduction is used! 
 
 *namesake:*
 The Australian (Spinifex hopping mouse)[https://en.wikipedia.org/wiki/Spinifex_hopping_mouse], a nocturnal desert mouse. 
 >"It spins, it hops and it needs a mouse"
 -Di Cook
 
-``` {r}
-1==1
-```
-
-Who knew?
-
-!()[https://media0.giphy.com/media/wHvrYA0YI4BCo/source.gif]
-
-*Image credit: Micheal Sale made shareble on* [*flickr.*](https://www.flickr.com/photos/michaelsale/5305794581)
+*Image credit: Micheal Sale made shareable on* [*flickr.*](https://www.flickr.com/photos/michaelsale/5305794581)
