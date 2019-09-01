@@ -15,8 +15,8 @@ in green and ‘ATLAS7old’ in orange
 ```{r, echo=F, message=F}
 suppressPackageStartupMessages(library(spinifex))
 # Fig 7, Jet cluster subset to ATLAS7old and ATLAS7new
-load("../../thesis_data/JetCluster_sub.rda")
-load("../../thesis_data/JetCluster_basis.rda")
+load("./data_phys/JetCluster_sub.rda")
+load("./data_phys/JetCluster_basis.rda")
 
 jet_bas   <- JetCluster_basis
 jet_dat   <- tourr::rescale(JetCluster_sub[, 1:4])
