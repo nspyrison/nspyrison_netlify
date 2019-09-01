@@ -1,5 +1,5 @@
 ---
-title: "spinifex: Visualizing local structure of high dim data"
+title: "spinifex: Visualizing local structure of higher dimensions"
 author: "--- Nick S Spyrison, Monash University"
 output: 
   flexdashboard::flex_dashboard:
@@ -49,13 +49,13 @@ colnames(dat) <- c(paste0("PC", 1:6), "Species")
 
 gg3 <- ggplot(dat, aes(x = PC1, y = PC2, shape = Species, col = Species)) +
   geom_point(size = 2) + ggtitle("PCA") + coord_fixed() +
-  theme(axis.text.x=element_blank(), axis.text.y=element_blank()) +
   xlab("First Component") + ylab("Second Component") +
-  theme_void() + theme(legend.position = c(0, 0),
+  theme_minimal() + theme(legend.position = c(0, 0),
                        legend.background=element_rect(colour ="darkgray") ) +
+  theme(axis.text.x=element_blank(), axis.text.y=element_blank()) +
   scale_color_brewer(palette = "Dark2") 
 
-### PCA pdf, cdf
+### PCA pdf, cdf -----
 dat <- as.data.frame(
   rbind(c(0,0,0,0), 
     cbind("PC" = 1:6,
@@ -114,7 +114,7 @@ gg5 <- ggplot(dat, aes(x = x, y = y, shape = Species, col = Species)) +
   theme_void() + coord_fixed() + theme(legend.position = 'none') +
   scale_color_brewer(palette = "Dark2")
 
-### method comparison -----
+### method comparison
 Method <- c("PCA", "t-SNE", "Tour, holes")
 Interpretable <- c(T, F, T) 
 Max_Var_Retention <- c(F, NA, T)
@@ -129,23 +129,26 @@ Column {data-width=200}
 -----------------------------------------------------------------------
 
 <!-- **Visualizing higher dimensional shapes is quickly messy and unintuitive**   -->
-Let high dim space be a euclidean space, $\mathbb{R}^p,~~p>3$, where $p$ are numeric variables  
+Let high dim space be a euclidean space, $\mathbb{R}^p,~~p>3$  
+  where $p$ are numeric variables  
 &nbsp;  
-
-Explore how indivudual variables contribute to a feature:
 
 - **Tab 1: spinifex:** examine the contribution of one variable on the structure using manual rotation  
 - Tab 2: tourr: generally view random or guided sequences of projections of high-dimensional data
 - Tab 3: comparison: PCA, t-SNE, tour
 - Tab 4: contact: how to find the code and get more details
 - Tab 5: more: additional tourr package enhancements
-&nbsp;
+&nbsp;  
+&nbsp;  
 
-```{r, results="hold", fig.width=1.5}
-knitr::include_graphics("./useR2018_images/QR_spinifex_useR2018.png")
+```{r, results="hold", fig.width=2}
+knitr::include_graphics("./images_useR2018/QR_spinifex_useR2018.png")
 ```
+&nbsp;  
 
-View at 150% zoom from Firefox or Chrome
+[nspyrison.github.io/user2018](https://nspyrison.github.io/user2018/spinifex_useR2018.html)  
+Suggested viewing:  
+125% zoom from Firefox or Chrome
 
 
 Column {.tabset}
@@ -159,7 +162,7 @@ Column {.tabset}
 
 ####
 
-```{r, eval=TRUE, echo=FALSE, results='asis'}
+```{r, eval=TRUE, echo=FALSE, results='hold'}
 set.seed(50011)
 rb <- basis_random(n = ncol(flea_std))
 cat <- flea$species
@@ -185,16 +188,43 @@ proj <- play_manual_tour(basis = rb, data = flea_std, manip_var = 4,
 # render(f, frames = 240, planned_tour(f.holes), #grand_tour(),
 #        display_xy(col = f.col, pch = f.pch),
 #                        #,group_by = flea$species, gp_legend = T),
-#        width = 600, height = 600, "png", "./useR2018_images/fleaHolesTour-%03d.png")
+#        width = 600, height = 600, "png", "./images_useR2018/fleaHolesTour-%03d.png")
 # 
 # browseURL("http://gifmaker.me/")
 ```
 ```{r, results="hold"}
-knitr::include_graphics("./useR2018_images/FleaHolesTour.gif")
+knitr::include_graphics("./images_useR2018/FleaHolesTour.gif")
 ```
 
 
 ### comparison
+
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+
+
 
 - Principal component analysis (PCA): $p$ ordered linear combinations of $p$ dimensions. Plot PC1 vs PC2
 - t-distributed Stochastic Neighbor Embedding (t-SNE): $p$ unordered non-linear combinations of $p$ dimensions. Do PCA and Plot PC1 vs PC2
@@ -204,9 +234,14 @@ knitr::include_graphics("./useR2018_images/FleaHolesTour.gif")
 kable(MethodComparison)
 ```
 
-```{r results="hold",fig.width=9}
+```{r results="asis",fig.width=9}
+### Need to standardize before going to 1,1.
+# grid.arrange(gg3 + theme(legend.position= c(.2,.2)) + xlim(-1, 1) + ylim(-1, 1),
+#             gg4 + theme(legend.position = 'none') + xlim(-1, 1) + ylim(-1, 1),
+#             gg5 + theme(legend.position = 'none') + xlim(-1, 1) + ylim(-1, 1),
+#             ncol=3, nrow=1)
 
-grid.arrange(gg3 + theme(legend.position = c(.2, .1)),
+grid.arrange(gg3 + theme(legend.position = c(.2, .2)),
             gg4 + theme(legend.position = 'none'),
             gg5 + theme(legend.position = 'none'),
             ncol=3, nrow=1)
@@ -234,8 +269,8 @@ gridExtra::grid.arrange(gg1, gg2, ncol=2)
 
 **Nick S Spyrison**  
 nicholas.spyrison@monash.edu  
-[github.com/nspyrison](https://github.com/nspyrison)
-[scholar.google.com.au/](https://scholar.google.com.au/citations?user=zzM9WVEAAAAJ&hl=en)
+[github.com/nspyrison](https://github.com/nspyrison)  
+[scholar.google.com.au](https://scholar.google.com.au/citations?user=zzM9WVEAAAAJ&hl=en)
 &nbsp;
 
 
@@ -299,7 +334,7 @@ library(tourr)
 #        display_groupxy(col = f.col, pch = f.pch,
 #                        group_by = flea$species, gp_legend = T),
 #        width = 600, height = 600,
-#        "png", "./useR2018_images/fleaHolesTour_groupxy-%03d.png")
+#        "png", "./images_useR2018/fleaHolesTour_groupxy-%03d.png")
 # 
 # #density_2d
 # require(MASS)
@@ -307,7 +342,7 @@ library(tourr)
 #        display_density2d(col = f.col, pch = f.pch,
 #                        group_by = flea$species, gp_legend = T),
 #        width = 600, height = 600,
-#        "png", "./useR2018_images/fleaHolesTour_density2d-%03d.png")
+#        "png", "./images_useR2018/fleaHolesTour_density2d-%03d.png")
 # 
 # browseURL("http://gifmaker.me/")
 ```
@@ -315,11 +350,11 @@ library(tourr)
 #### animate_groupxy()
 
 ```{r, results="hold"}
-knitr::include_graphics("./useR2018_images/FleaHolesTour_groupxy.gif")
+knitr::include_graphics("./images_useR2018/FleaHolesTour_groupxy.gif")
 ```
 
 #### animate_density2d()
 
 ```{r, results="hold"}
-knitr::include_graphics("./useR2018_images/FleaHolesTour_density2d.gif")
+knitr::include_graphics("./images_useR2018/FleaHolesTour_density2d.gif")
 ```
