@@ -1,5 +1,4 @@
 ---
-draft: yes
 author: "Nicholas Spyrison"
 date: 2019-02-01
 linktitle: Blogdown -- lessons learned
@@ -49,16 +48,24 @@ weight: 10
 </ol></li>
 <li>For more through documentation, see Mara’s <a href="https://maraaverick.rbind.io/2017/10/updating-blogdown-hugo-version-netlify/">post</a></li>
 </ul></li>
-<li>Resolving: “Error building site:”C:&lt;some path&gt;.rda:1:1“: unmarshal of format”&quot; is not supported&quot;
+<li>Resolving: “Error building site:”C:&lt;some path&gt;.rda:1:1“: unmarshal of format”" is not supported"
 <ul>
 <li>SOLUTION: make /data/ (or any file referenced in an .rmd) is in static/data/ or the static directory. Didn’t have to fix .rmd, and serve_site() resolved.</li>
 <li>symptoms: looks like standard .rda file is the wrong format. Changing data type and file type doesn’t resolve.</li>
-<li>symptoms: can knit .rmd locally, cannot <code>blogdown::serve_site()</code> or Build, Build Website <!--     * workaround workflow: (avoid using, fix is easy enough) --> <!--         1. `rmarkdown::clean_site()` (Build, More, Clean all) --> <!--         2. `blogdown::build_site()`, wait for the build, takes a few minutes for me building 70 MB of manual tours. Runs on the console. (NOT build_dir(), do not run from build tab.) --> <!--         3. Push to Github (use kraken or terminal as sizes are large), hope netlify builds. Works as of SHA 6eebb990. --> <!--         * *note* no offline dev; changes are now "devele-prod" --> <!-- * Hidden spelling errors (ie. Theses from thesis), the folders are automatically made plural, space characters in folders don't work either. --> <!--     * solution: leaving as Theses for now. may change later. --></li>
+<li>symptoms: can knit .rmd locally, cannot <code>blogdown::serve_site()</code> or Build, Build Website
+<!--     * workaround workflow: (avoid using, fix is easy enough) -->
+<!--         1. `rmarkdown::clean_site()` (Build, More, Clean all) -->
+<!--         2. `blogdown::build_site()`, wait for the build, takes a few minutes for me building 70 MB of manual tours. Runs on the console. (NOT build_dir(), do not run from build tab.) -->
+<!--         3. Push to Github (use kraken or terminal as sizes are large), hope netlify builds. Works as of SHA 6eebb990. -->
+<!--         * *note* no offline dev; changes are now "devele-prod" -->
+<!-- * Hidden spelling errors (ie. Theses from thesis), the folders are automatically made plural, space characters in folders don't work either. -->
+<!--     * solution: leaving as Theses for now. may change later. --></li>
 </ul></li>
 </ul>
 <blockquote>
 <p>When in doubt, upgrade.</p>
 </blockquote>
 <p>-Yihui Xie</p>
-<p><code>update.packages(ask = FALSE, checkBuilt = TRUE)</code> (make sure that lib.path is not versioned)</p>
+<p><code>update.packages(ask = FALSE, checkBuilt = TRUE)</code>
+(make sure that lib.path is not versioned)</p>
 </div>

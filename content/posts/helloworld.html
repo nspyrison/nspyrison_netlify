@@ -1,5 +1,4 @@
 ---
-draft: yes
 author: "Nicholas Spyrison"
 date: 2019-01-18
 linktitle: Hello world -- blogdown
@@ -7,15 +6,17 @@ title: Hello world -- blogdown
 # categories: [ "Development", "hugo" ]
 # tags: ["hugo", "theme", "html", "css"]
 weight: 10
+
 ---
 
 
 
 <div id="gist" class="section level1">
 <h1>Gist</h1>
-<p>Blogdown accepts .md or .rmd files, write as though it’s any other .rmd file. Keep in mind the <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">cheatsheet</a> and your favorite .rmd settings.</p>
-<div id="introduction" class="section level2">
-<h2>Introduction</h2>
+<p>Blogdown accepts .md or .rmd files, write as though it’s any other .rmd file. links are made with <a href="link">txt</a> and images are made with <img src="img" alt="hover_txt" />Keep in mind the <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">cheatsheet</a> and your favorite .rmd settings.</p>
+<p>Remember to store <code>static</code> files like images and data in <code>./static/</code> (ie. <code>./static/MyFolder/Pic1.png</code>) and reference them from relative to the stat folder<code>![My picture](MyFolder/Pic1.png)</code>. Will they kniw correctly?</p>
+<div id="r-code" class="section level2">
+<h2>R code</h2>
 <p>Hello world for my blogdown site.</p>
 <pre class="r"><code>&quot;hello world, now in an `R` chunk!&quot;</code></pre>
 <pre><code>## [1] &quot;hello world, now in an `R` chunk!&quot;</code></pre>
@@ -27,10 +28,17 @@ weight: 10
 ## Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
 ## Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
 ## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1</code></pre>
-<p>Online image hosting:</p>
-<div class="figure">
-<img src="https://i.redd.it/jle76y13zis11.gif" />
-
 </div>
+<div id="static-files-images-and-data" class="section level2">
+<h2>Static files – images and data</h2>
+<p>Dr. Navarro has a long post about this <a href="https://djnavarro.net/post/starting-blogdown/">here</a>
+store: <code>./static/</code> (ie. <code>./static/MyFolder/Pic1.png</code>)
+use: <code>![My picture](MyFolder/Pic1.png)</code>, that is refernece from static folder.</p>
+<p><em>Online image reference:</em></p>
+<p><code>![](https://media.giphy.com/media/bbshzgyFQDqPHXBo4c/giphy.gif)</code></p>
+<p><img src="https://media.giphy.com/media/bbshzgyFQDqPHXBo4c/giphy.gif" /></p>
+<p><em>Local image refence:</em></p>
+<p><code>![](helloworld/doggo.gif)</code></p>
+<p><img src="helloworld/doggo.gif" /></p>
 </div>
 </div>
