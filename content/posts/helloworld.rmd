@@ -3,17 +3,16 @@ author: "Nicholas Spyrison"
 date: 2019-01-18
 linktitle: Hello world -- blogdown
 title: Hello world -- blogdown
-# categories: [ "Development", "hugo" ]
-# tags: ["hugo", "theme", "html", "css"]
 weight: 10
-
 ---
 
 # Gist
 
 Blogdown accepts .md or .rmd files, write as though it's any other .rmd file. links are made with [txt](link) and images are made with ![hover_txt](img)Keep in mind the [cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) and your favorite .rmd settings.
 
-Remember to store `static` files like images and data in `./static/` (ie. `./static/MyFolder/Pic1.png`) and reference them from relative to the stat folder`![My picture](MyFolder/Pic1.png)`. Will they kniw correctly?
+Remember to store `static` files like images and data in `./static/` (ie. `./static/MyFolder/Pic1.png`) and reference them from relative to the stat folder`![My picture](/MyFolder/Pic1.png)`.
+
+However, data is stored and referneced as any other .rmd. (ie `./content/posts/data/df.rda`) is called with `load("./data/df.rda")`.
 
 
 ## R code
@@ -31,18 +30,22 @@ head(mtcars)
 
 Dr. Navarro has a long post about this [here](https://djnavarro.net/post/starting-blogdown/)
 store: `./static/` (ie. `./static/MyFolder/Pic1.png`)
-use: `![My picture](MyFolder/Pic1.png)`, that is refernece from static folder.
+use: `![My picture](/MyFolder/Pic1.png)`, that is refernece from static folder.
 
+**local data**
+```{r}
+load("./helloworld/df.rda")
+head(df)
+```
 
-*Online image reference:*
+**Local image**
+
+`![](/helloworld/doggo.gif)`
+
+![](/helloworld/doggo.gif)
+
+**Online image**
 
 `![](https://media.giphy.com/media/bbshzgyFQDqPHXBo4c/giphy.gif)`
 
 ![](https://media.giphy.com/media/bbshzgyFQDqPHXBo4c/giphy.gif)
-
-*Local image refence:*
-
-`![](helloworld/doggo.gif)`
-
-![](helloworld/doggo.gif)
-

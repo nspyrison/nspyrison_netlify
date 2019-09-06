@@ -3,10 +3,7 @@ author: "Nicholas Spyrison"
 date: 2019-01-18
 linktitle: Hello world -- blogdown
 title: Hello world -- blogdown
-# categories: [ "Development", "hugo" ]
-# tags: ["hugo", "theme", "html", "css"]
 weight: 10
-
 ---
 
 
@@ -14,7 +11,8 @@ weight: 10
 <div id="gist" class="section level1">
 <h1>Gist</h1>
 <p>Blogdown accepts .md or .rmd files, write as though it’s any other .rmd file. links are made with <a href="link">txt</a> and images are made with <img src="img" alt="hover_txt" />Keep in mind the <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">cheatsheet</a> and your favorite .rmd settings.</p>
-<p>Remember to store <code>static</code> files like images and data in <code>./static/</code> (ie. <code>./static/MyFolder/Pic1.png</code>) and reference them from relative to the stat folder<code>![My picture](MyFolder/Pic1.png)</code>. Will they kniw correctly?</p>
+<p>Remember to store <code>static</code> files like images and data in <code>./static/</code> (ie. <code>./static/MyFolder/Pic1.png</code>) and reference them from relative to the stat folder<code>![My picture](/MyFolder/Pic1.png)</code>.</p>
+<p>However, data is stored and referneced as any other .rmd. (ie <code>./content/posts/data/df.rda</code>) is called with <code>load("./data/df.rda")</code>.</p>
 <div id="r-code" class="section level2">
 <h2>R code</h2>
 <p>Hello world for my blogdown site.</p>
@@ -33,12 +31,22 @@ weight: 10
 <h2>Static files – images and data</h2>
 <p>Dr. Navarro has a long post about this <a href="https://djnavarro.net/post/starting-blogdown/">here</a>
 store: <code>./static/</code> (ie. <code>./static/MyFolder/Pic1.png</code>)
-use: <code>![My picture](MyFolder/Pic1.png)</code>, that is refernece from static folder.</p>
-<p><em>Online image reference:</em></p>
+use: <code>![My picture](/MyFolder/Pic1.png)</code>, that is refernece from static folder.</p>
+<p><strong>local data</strong></p>
+<pre class="r"><code>load(&quot;./helloworld/df.rda&quot;)
+head(df)</code></pre>
+<pre><code>##           x        y
+## 1  0.218540  0.32562
+## 2 -0.299294 -0.68676
+## 3  1.874378 -1.23817
+## 4  0.369050  0.31933
+## 5  0.925992 -0.06391
+## 6 -0.004362 -1.70455</code></pre>
+<p><strong>Local image</strong></p>
+<p><code>![](/helloworld/doggo.gif)</code></p>
+<p><img src="/helloworld/doggo.gif" /></p>
+<p><strong>Online image</strong></p>
 <p><code>![](https://media.giphy.com/media/bbshzgyFQDqPHXBo4c/giphy.gif)</code></p>
 <p><img src="https://media.giphy.com/media/bbshzgyFQDqPHXBo4c/giphy.gif" /></p>
-<p><em>Local image refence:</em></p>
-<p><code>![](helloworld/doggo.gif)</code></p>
-<p><img src="helloworld/doggo.gif" /></p>
 </div>
 </div>
