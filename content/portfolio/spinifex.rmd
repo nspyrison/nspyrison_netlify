@@ -2,7 +2,7 @@
 title: "spinifex (R package)"
 description: "R package for exploring multivariate data via linear projection."
 link: https://github.com/nspyrison/spinifex
-screenshot: spinifex.png
+screenshot: mouse.png
 date: '2019-08-16'
 layout: 'portfolio'
 ---

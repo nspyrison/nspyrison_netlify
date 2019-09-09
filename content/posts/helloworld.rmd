@@ -1,6 +1,6 @@
 ---
 author: "Nicholas Spyrison"
-date: 2019-01-18
+date: "Jan 2019"
 linktitle: Hello world -- blogdown
 title: Hello world -- blogdown
 weight: 10
@@ -28,9 +28,8 @@ head(mtcars)
 
 ## Static files -- images and data
 
-Dr. Navarro has a long post about this [here](https://djnavarro.net/post/starting-blogdown/)
-store: `./static/` (ie. `./static/MyFolder/Pic1.png`)
-use: `![My picture](/MyFolder/Pic1.png)`, that is refernece from static folder.
+Navigating images is handled differently than .rmd's, while loading data is handled the same. Dr. Navarro has a long post about this [here](https://djnavarro.net/post/starting-blogdown/). In short, here are a few working examples. If you need help getting started, you can check the the `\static\helloworld` and `\content\posts\helloworld` on my [github repo](https://github.com/nspyrison/nspyrison_netlify).
+
 
 **local data**
 ```{r}
