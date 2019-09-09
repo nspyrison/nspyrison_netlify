@@ -7,9 +7,8 @@ I am PhD candidate at Monash University, Melbourne Austalia, researching high di
 
 I am researching, and gratefully so, with two lovely world-class professors, [Di Cook](http://www.dicook.org/) and [Kim Marriott](https://research.monash.edu/en/persons/kimbal-marriott).
 
- <!-- MOVE TO PORTFOLIO: I am author of the R package **spinifex** [CRAN version](https://cran.r-project.org/web/packages/spinifex/index.html), [Dev version](https://github.com/nspyrison/spinifex) -->
 
-I love dogs and advocate for mental illnesses. In my spare time, I enjoy cycling, comedy (especially observational and dead-pan), and board games. I have been practicing Buddhism since 2006 and have been though lay Buddhist ordination, Jukai (a ceremony akin to a formal version of Christian Confirmation).
+I love dogs and advocate for mental illnesses. In my spare time, I enjoy cycling, comedy (especially observational and dead-pan), and board games. I have been practicing Soto Zen Buddhism since 2006 and have been though lay Buddhist ordination, Jukai, which is a formal statement of my belief and commitment to the lineage.
 
 
 
