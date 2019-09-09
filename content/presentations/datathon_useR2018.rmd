@@ -119,7 +119,7 @@ sample_n(dat, n = 5000)
 ```{r results="hold",fig.width=9}
 load(file = "./data_useR2018_datathon/samp_5k_of3m.rda") # loads df 'samp'
 
-GGally::ggpairs(data = samp[3:ncol(dat)])
+GGally::ggpairs(data = samp[3:ncol(samp)])
 skimr::skim(samp)
 ```
 
@@ -127,9 +127,8 @@ skimr::skim(samp)
 ### Geospacial
 
 ```{r results="hold",fig.width=9}
-map_samp <- samp
 ### MAPPING 101
-xymap <- ggplot(map_samp, aes(y=decimalLatitude, x=decimalLongitude),
+xymap <- ggplot(samp, aes(y=decimalLatitude, x=decimalLongitude),
                 alpha=.1) + coord_fixed() + geom_jitter(width=.5, height=.3)+ theme_minimal()
 xymap
 ```
@@ -150,10 +149,10 @@ xymap
 ### Geospacial-temporal
 
 ```{r results="hold",fig.width=9}
-map_samp <- mutate(map_samp, decade=substring(year,1,3))
+samp <- mutate(samp, decade=substring(year, 1, 3))
 xymap2 <- 
-  ggplot(map_samp, aes(y=decimalLatitude, x=decimalLongitude, frame=decade),
-         alpha=.1) + coord_fixed() + geom_jitter(width=.5, height=.3) + theme_minimal()
+  ggplot(samp, aes(y = decimalLatitude, x = decimalLongitude, frame = decade),
+         alpha = .1) + coord_fixed() + geom_jitter(width = .5, height = .3) + theme_minimal()
 plotly::ggplotly(xymap2)
 ```
 

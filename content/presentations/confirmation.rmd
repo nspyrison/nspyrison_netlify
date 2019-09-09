@@ -186,7 +186,7 @@ f_bas %>% kable() %>% kable_styling()
 
 .pull-left[
 ```{r, out.height='80%', out.width='80%'}
-view_manip_space(basis = f_bas, manip_var = f_mvar, labels = colnames(f_dat))
+view_manip_space(basis = f_bas, manip_var = f_mvar, lab = colnames(f_dat))
 ```
 ]
 
@@ -215,15 +215,15 @@ rb <- tourr::basis_random(n = ncol(flea_std))
 theta <- runif(1, 0, 2*pi)
 phi <- runif(1, 0, 2*pi)
 
-oblique_frame(data = flea_std, basis = rb, manip_var = 4, theta, phi)
-
-
-oblique_frame(basis = f_mt[,, 1], data = f_dat, manip_var = f_mvar, 
-              col = f_cat, pch = f_cat)
-
+### errors here, when I debug it shows current code, but runs old code. (shrugs)
+### will read image for now.
+# oblique_frame(data = flea_std, basis = rb, manip_var = 4, theta, phi)
+# 
+# oblique_frame(basis = f_mt[,, 1], data = f_dat, manip_var = f_mvar, 
+#               col = f_cat, pch = f_cat)
 
 ### Leaves white space across top+bot, alternatively can use screenshot:
-#knitr::include_graphics("/images_confirmation/rotate_manip_sp.PNG")
+knitr::include_graphics("/images_confirmation/rotate_manip_sp.PNG")
 ```
 
 ---
