@@ -1,0 +1,29 @@
+---
+author: "Nicholas Spyrison"
+date: Oct 2019
+linktitle: Python syntax
+title: Python syntax
+weight: 10
+---
+
+As far as coding goes I am more at home with R than other languages. These are somes notes about basic Python syntax to help keep my head straight
+
+# Python syntax notes
+
+```
+# Comments are preceded by #, yay
+
+# Assignment uses =
+res = 5
+
+# Returns and coersion are explicit
+print(res)
+print("the result is ", str(res))
+
+# Lists use single brackets [], indexed at 0, inclusive start, and exculsive end.
+ls = [1,2,3,4,5]
+print(ls[1:4])
+#> 2, 3, 4
+
+# Boolean are `True` and `False`, case sensitive, and equivalant to 1 and 0.
+```
