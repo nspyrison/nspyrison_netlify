@@ -1,0 +1,69 @@
+## Basic Configuration
+#browseURL("https://alison.rbind.io/post/up-and-running-with-blogdown/")
+baseurl = "https://nspyrison.netlify.com/"
+  # Use "/" or "https://nspyrison.netlify.com/".
+languageCode = "en"
+
+title = "Nicholas Spyrison"
+theme = "hyde-hyde"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+# summarylength = 30
+# paginate = 5
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+## Site Settings
+[params]
+    author = "Nicholas Spyrison"
+    title = "Nicholas Spyrison"
+    description = "PhD candidate, Monash University"
+    authorimage = "/img/_ns_cover.jpeg" # "/img/hugo.png" #
+    dateformat = "Jan 2, 2006"
+    highlightjs = true
+    highlightjsstyle = "github"
+    #toc = "none" # "none"", "hugo", or "tocbot"
+
+## Social Accounts
+[params.social]
+    github = "nspyrison"
+    linkedin = "nspyrison"
+    twitter = "@nspyrison"
+    email = "spyrison@gmail.com"
+    #googlescholar = "https://scholar.google.com.au/citations?user=zzM9WVEAAAAJ&hl=en"
+
+## Main Menu -- site navigation
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
+#[[menu.main]]
+#    name = "Presentations"
+#    identifier = "presentations"
+#    weight = 400
+#    url = "/presentation/"
+[[menu.main]]
+    name = "Thesis"
+    identifier = "thesis"
+    weight = 500
+    url = "/thesis/"
+#[[menu.main]]
+#    name = "else"
+#    identifier = "else"
+#    weight = 500
+#    url = "/else/"
+
