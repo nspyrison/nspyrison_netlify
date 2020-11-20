@@ -1,10 +1,11 @@
 ---
+### NS: this is the bubble paralax header, may look cool or cheesy
 # An instance of the Blank widget.
 # Documentation: https://sourcethemes.com/academic/docs/page-builder/
 widget: blank
 
 # Activate this widget? true/false
-active: true
+active: false
 
 # This file represents a page section.
 headless: true
@@ -12,7 +13,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 15
 
-title: Demos
+title: Parallax
 subtitle:
 
 design:
@@ -36,8 +37,8 @@ Welcome to the demo of the **resumé template** for Academic.
 
 **[Join](https://sourcethemes.com/academic/docs/install/) the Most Empowered Hugo Community**
 
-{{% alert note %}}
+{{% callout note %}}
 This homepage section is an example of adding [elements](https://sourcethemes.com/academic/docs/writing-markdown-latex/) to the [*Blank* widget](https://sourcethemes.com/academic/docs/widgets/).
 
 Backgrounds can be applied to any section. Here, the *background* option is set give an *image parallax* effect.
-{{% /alert %}}
+{{% /callout %}}
