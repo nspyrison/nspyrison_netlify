@@ -23,8 +23,11 @@ jet_dat   <- tourr::rescale(JetCluster_sub[, 1:4])
 jet_cat   <- factor(JetCluster_sub$exp)
 jet_mvar  <- 1
 jet_mtour <- manual_tour(basis = jet_bas, manip_var = jet_mvar)
-play_manual_tour(data = jet_dat, basis = jet_bas, manip_var = jet_mvar, 
-                 angle = .26, axes = "bottomleft", col = jet_cat)
+play_manual_tour(data = jet_dat, basis = jet_bas, manip_var = jet_mvar,
+                 angle = .26, axes = "left",
+                 aes_args = list(color = jet_cat, shape = jet_cat)
+)
+
 
 ##Jet Cluster, fig 7 of cook_dynamical_2018
 ##M_VAR, RESULT

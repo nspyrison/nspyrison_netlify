@@ -25,7 +25,9 @@ DIS_mvar  <- 6
 DIS_mtour <- manual_tour(basis = DIS_bas, manip_var = DIS_mvar)
 
 play_manual_tour(data = DIS_dat, basis = DIS_bas, manip_var = DIS_mvar, 
-                 angle = .27, axes="bottomleft", col = DIS_cat)
+                 angle = .27, axes="left",
+                 aes_args = list(color = DIS_cat, shape = DIS_cat)
+)
 
 ##DIS cluster, fig 8 of cook_dynamical_2018
 ##M_VAR, RESULT
