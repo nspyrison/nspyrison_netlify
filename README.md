@@ -9,6 +9,7 @@
 * /content/: Primary point of changes. Stores compilable files such as .md, .rmd.
 * /static/: think of this as a  /figures or /output folder; images, gif, and other files that are referenced in the /content/ section belong here.
 * /public/: Do not touch this!; This is the content that is being hosted. blogdown::build_site() compiles the /content/ and overwites the output to public for hosting.
+* /config/_default/menus.toml: Most other changes to display and order are made here, kind of like a parent doc ordering display of children documents.
 
 
 

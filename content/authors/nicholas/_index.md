@@ -82,4 +82,4 @@ I am grateful to be studying with the [NUMBATS](https://numbat.space/) and [Imme
 
 I have been deepening my appreciation for coffee during my time in Australia. I am dog person, and enjoy a wide variety of Comedy and board games.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/cv_NicholasSpyrison.pdf" "newtab" >}} cv/resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/cv_NicholasSpyrison.pdf" "newtab" >}} cv{{< /staticref >}}.

@@ -18,9 +18,6 @@ theme = "minimal"
 # Enable users to switch between day and night mode?
 day_night = true
 
-# Override the theme's font set (optional).
-#   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
-#   Browse built-in font sets in `themes/academic/data/fonts/`
 #   Browse user installed font sets in `data/fonts/`
 font = ""
 
@@ -48,7 +45,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Nicholas Spyrison's personal website."
+description = "Nicholas Spyrison's website."
 
 ############################
 ## Site Features
@@ -62,7 +59,7 @@ highlight_languages = ["r", "latex"]  # Add support for highlighting additional 
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
-math = false
+math = true
 
 # Enable diagram rendering? true/false
 #   If false, you can enable diagrams on a per page basis as needed.
@@ -93,11 +90,11 @@ phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "", city = "Clayton", region = "VIC", postcode = "", country = "Australia", country_code = "AU"}
+address = {street = "", city = "Melbourne", region = "VIC", postcode = "", country = "Australia", country_code = "AU"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "-37.91244", longitude = "145.13307"}
+#coordinates = {latitude = "-37.91244", longitude = "145.13307"}
 
 # Directions for visitors to locate you.
 directions = ""
