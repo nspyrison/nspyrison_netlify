@@ -14,7 +14,7 @@ organizations:
   url: https://www.monash.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
@@ -77,9 +77,9 @@ user_groups:
 
 I am studying multivariate data visulizations as PhD candidate at Monash University, Melbourne Austalia. I am the author of the R package [{spinifex}](https://cran.r-project.org/web/packages/spinifex/index.html), which facilitates 'manual' data visualization tours, _ie._ animations of linear projections orthogonally interpolating as the contribution of a single variable is controled. The package also consumes `{tourr}` tour paths extending the graphics they can be rendered with.
 
-I am grateful to be studying with the [NUMBATS](https://numbat.space/) and [Immersive Analytics](https://ialab.it.monash.edu/). My PhD reseach is in collaboration with 
+I am grateful to be studying with the [NUMBATS](https://numbat.space/) and [Immersive Analytics](https://ialab.it.monash.edu/). My PhD research is in collaboration with 
 [Professor Dianne Cook](http://www.dicook.org/) and [Professor Kim Marriott](https://research.monash.edu/en/persons/kimbal-marriott)
 
-I have been deepening my appreciation for coffee during my time in Austalia. I am dog person, and enjoy a wide varriety of Commedy and board games.
+I have been deepening my appreciation for coffee during my time in Australia. I am dog person, and enjoy a wide variety of Comedy and board games.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/cv_NicholasSpyrison.pdf" "newtab" >}} cv/resumé{{< /staticref >}}.
