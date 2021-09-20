@@ -16,7 +16,7 @@ Learning the different components of an R markdown file is complex enough for me
 * https://github.com/rstudio-education/arm-workshop-rsc2019/issues/34 -- Hosting via netlify links
 * http://jmcglone.com/guides/github-pages/ -- Hosting via github
 * https://djnavarro.net/post/starting-blogdown/ -- Danielle (DJ Navarro)'s getting started with blogdown. she's much more equant a writer than me, and shares many of my frustrations.
-* http://jenrichmond.rbind.io/post/insights-from-the-markdown-whisperer/ -- Jenny's notes on applying Alison's custom Hugo Acedemic .css file.
+* http://jenrichmond.rbind.io/post/insights-from-the-markdown-whisperer/ -- Jenny's notes on applying Alison's custom Hugo Academic .css file.
 * https://ysc-rmarkdown.netlify.com/materials/ -- Alison's _Communicating with R Markdown_ workshop, Session 4: Collections involves blogdown and styling. 
 * https://app.netlify.com/drop -- Netlify _Drag & drop_ online hosting, great for trouble shooting. Drop your whole `public` folder for a temporary test.
 

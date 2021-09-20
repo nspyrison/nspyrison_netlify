@@ -1,6 +1,6 @@
 ---
-author: "Nicholas Spyrison"
-date: Jan 2019
+author: "nicholas"
+date: "Jan 2019"
 linktitle: Hello world -- blogdown
 title: Hello world -- blogdown
 weight: 10
