@@ -74,12 +74,11 @@ user_groups:
 ---
 
 
-
-I am studying multivariate data visulizations as PhD candidate at Monash University, Melbourne Austalia. I am the author of the R package [{spinifex}](https://cran.r-project.org/web/packages/spinifex/index.html), which facilitates 'manual' data visualization tours, _ie._ animations of linear projections orthogonally interpolating as the contribution of a single variable is controled. The package also consumes `{tourr}` tour paths extending the graphics they can be rendered with.
+I am a PhD candidate at Monash University, Melbourne Austalia where I study multivariate data visualization. I am the author of the R package [{spinifex}](https://cran.r-project.org/web/packages/spinifex/index.html), which animates many linear projections of data over small changes in the basis, known as _tours_.
 
 I am grateful to be studying with the [NUMBATS](https://numbat.space/) and [Immersive Analytics](https://ialab.it.monash.edu/). My PhD research is in collaboration with 
 [Professor Dianne Cook](http://www.dicook.org/) and [Professor Kim Marriott](https://research.monash.edu/en/persons/kimbal-marriott)
 
-I have been deepening my appreciation for coffee during my time in Australia. I am dog person, and enjoy a wide variety of Comedy and board games.
+I have been deepening my appreciation for coffee during my time in Australia. I am dog person, and enjoy a wide variety of comedy and board games.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/cv_NicholasSpyrison.pdf" "newtab" >}} cv{{< /staticref >}}.
