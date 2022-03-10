@@ -24,10 +24,9 @@ DIS_cat   <- factor(grDIScenter$disID)
 DIS_mvar  <- 1
 DIS_mtour <- manual_tour(basis = DIS_bas, manip_var = DIS_mvar)
 
-play_manual_tour(data = DIS_dat, basis = DIS_bas, manip_var = DIS_mvar,
-                 angle = .27, axes = "left",
-                 aes_args = list(color = DIS_cat, shape = DIS_cat)
-)
+ggt <- ggtour(basis_array = DIS_mtour, data = DIS_dat, angle = .27) +
+  proto_default(aes_args = list(color = DIS_cat, shape = DIS_cat))
+animate_plotly(ggt)
 
 ##DIS cluster, fig 8 of cook_dynamical_2018
 ##M_VAR, RESULT

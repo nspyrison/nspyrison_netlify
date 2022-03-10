@@ -19,14 +19,14 @@ load("./data_phys/JetCluster_sub.rda")
 load("./data_phys/JetCluster_basis.rda")
 
 jet_bas   <- JetCluster_basis
-jet_dat   <- tourr::rescale(JetCluster_sub[, 1:4])
+jet_dat   <- scale_01(JetCluster_sub[, 1:4])
 jet_cat   <- factor(JetCluster_sub$exp)
 jet_mvar  <- 1
 jet_mtour <- manual_tour(basis = jet_bas, manip_var = jet_mvar)
-play_manual_tour(data = jet_dat, basis = jet_bas, manip_var = jet_mvar,
-                 angle = .26, axes = "left",
-                 aes_args = list(color = jet_cat, shape = jet_cat)
-)
+
+ggt <- ggtour(basis_array = jet_mtour, data = jet_dat, angle = .26) +
+  proto_default(aes_args = list(color = jet_cat, shape = jet_cat))
+animate_plotly(ggt)
 
 
 ##Jet Cluster, fig 7 of cook_dynamical_2018

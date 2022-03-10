@@ -18,8 +18,9 @@ organizations:
 
 # Interests to show in About widget
 interests:
+- Dimension reduction
 - Multivariate data vis
-- Interactive data vis
+- Machine learning
 - Exploratory data analysis
 - Futurology & human progress
 
@@ -29,7 +30,7 @@ education:
   courses:
   - course: PhD in Information Technology
     institution: Monash University
-    year: 2021 [Expected]
+    year: 2022
   - course: BSc in Statistics
     institution: Iowa State University
     year: 2012
@@ -53,7 +54,7 @@ social:
   link: https://github.com/nspyrison
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/nspyrison/
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
@@ -67,14 +68,10 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 
-# Organizational groups that you belong to (for People widget)
-#   Remove this if you are not using the People widget.
-user_groups:
-- Principal Investigators
 ---
 
 
-I am a PhD candidate at Monash University, Melbourne Austalia where I study multivariate data visualization. I am the author of the R package [{spinifex}](https://cran.r-project.org/web/packages/spinifex/index.html), which animates many linear projections of data over small changes in the basis, known as _tours_.
+I am a PhD candidate at Monash University, Melbourne Austalia where I study multivariate data visualization. I am the author of the R package [__spinifex__](https://nspyrison.github.io/spinifex/) and [__cheem__](https://nspyrison.github.io/cheem/).
 
 I am grateful to be studying with the [NUMBATS](https://numbat.space/) and [Immersive Analytics](https://ialab.it.monash.edu/). My PhD research is in collaboration with 
 [Professor Dianne Cook](http://www.dicook.org/) and [Professor Kim Marriott](https://research.monash.edu/en/persons/kimbal-marriott)
