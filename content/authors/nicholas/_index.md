@@ -63,7 +63,7 @@ social:
   link: media/cv_NicholasSpyrison.pdf
 
 # Email for Contact widget or Gravatar
-email: ""
+email: "spyrison@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -71,11 +71,11 @@ highlight_name: false
 ---
 
 
-I am a PhD candidate at Monash University, Melbourne Austalia where I study multivariate data visualization. I am the author of the R package [__spinifex__](https://nspyrison.github.io/spinifex/) and [__cheem__](https://nspyrison.github.io/cheem/).
+I am a PhD candidate at Monash University, Melbourne Australia where I study multivariate data visualization, dimension reduction, and nonlinear model interpretability. I have recently submitted my thesis [_Interactive and dynamic visualization of high-dimensional data_](https://nspyrison.github.io/thesis_ns/). I am the author of the R packages [__spinifex__](https://nspyrison.github.io/spinifex/) and [__cheem__](https://nspyrison.github.io/cheem/).
 
 I am grateful to be studying with the [NUMBATS](https://numbat.space/) and [Immersive Analytics](https://ialab.it.monash.edu/). My PhD research is in collaboration with 
-[Professor Dianne Cook](http://www.dicook.org/) and [Professor Kim Marriott](https://research.monash.edu/en/persons/kimbal-marriott)
+[Professor Dianne Cook](http://www.dicook.org/) and [Professor Kim Marriott](https://research.monash.edu/en/persons/kimbal-marriott).
 
-I have been deepening my appreciation for coffee during my time in Australia. I am dog person, and enjoy a wide variety of comedy and board games.
+I have been deepening my appreciation for coffee during my time in Australia. I love dogs and enjoy a good bike ride, comedy, and board games.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/cv_NicholasSpyrison.pdf" "newtab" >}} cv{{< /staticref >}}.
