@@ -73,6 +73,12 @@ highlight_name: false
 
 I am a PhD candidate at Monash University, Melbourne Australia where I study multivariate data visualization, dimension reduction, and nonlinear model interpretability. I have recently submitted my thesis [_Interactive and dynamic visualization of high-dimensional data_](https://nspyrison.github.io/thesis_ns/). I am the author of the R packages [__spinifex__](https://nspyrison.github.io/spinifex/) and [__cheem__](https://nspyrison.github.io/cheem/).
 
+| Package | CRAN | Pkgdown | Shiny app | GitHub |
+| ------- | ---- | ----------- | --------- | ------ |
+| spinifex | [Link](https://CRAN.R-project.org/package=spinifex) | [Documentation](https://nspyrison.github.io/spinifex/) | [Application](https://nicholas-spyrison.shinyapps.io/radial_tour/) | [Code](https://github.com/nspyrison/spinifex) |
+| cheem | [Link](https://CRAN.R-project.org/package=cheem) | [Documentation](https://nspyrison.github.io/cheem/) | [Application](https://nicholas-spyrison.shinyapps.io/cheem_initial/) | [Code](https://github.com/nspyrison/cheem) |
+
+
 I am grateful to be studying with the [NUMBATS](https://numbat.space/) and [Immersive Analytics](https://ialab.it.monash.edu/). My PhD research is in collaboration with 
 [Professor Dianne Cook](http://www.dicook.org/) and [Professor Kim Marriott](https://research.monash.edu/en/persons/kimbal-marriott).
 
