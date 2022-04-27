@@ -19,7 +19,7 @@ organizations:
 # Interests to show in About widget
 interests:
 - Dimension reduction
-- Multivariate data vis
+- Multivariate data visualization
 - Machine learning
 - Exploratory data analysis
 - Futurology & human progress
@@ -28,7 +28,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Information Technology
+  - course: PhD in Information Technology/Statistics
     institution: Monash University
     year: 2022
   - course: BSc in Statistics

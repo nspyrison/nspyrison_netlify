@@ -1,0 +1,32 @@
+---
+title: test_post
+author: ''
+date: '2022-04-27'
+slug: test-post
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2022-04-27T11:46:33+10:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+# Header 1
+
+hello world 
+
+underscore: __words__ _words_
+askerisk: **words** *words*
+tilde: ~~words~~ ~words~
+
+```{r}
+skimr::skim(mtcars)
+summary(mtcars)
+GGally::ggpairs(mtcars)
+```
