@@ -1,17 +1,17 @@
 ---
 # Display name
-title: Nicholas Spyrison
+title: Nicholas Spyrison, PhD
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: PhD Candidate
+role: Research Data Scientist, Healthcare
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Monash University
-  url: https://www.monash.edu/
+- name: University of Queensland
+  url: https://www.uq.edu.au/
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
