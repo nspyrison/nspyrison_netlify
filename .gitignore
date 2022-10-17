@@ -2,8 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
-blogdown
+/blogdown
 .DS_Store
 Thumbs.db
 /public/
 
+!layouts/shortcodes/blogdown/postref.html
