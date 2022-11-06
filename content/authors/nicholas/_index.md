@@ -71,7 +71,7 @@ highlight_name: false
 ---
 
 
-I am a PhD candidate at Monash University, Melbourne Australia where I study multivariate data visualization, dimension reduction, and nonlinear model interpretability. I have recently submitted my thesis [_Interactive and dynamic visualization of high-dimensional data_](https://nspyrison.github.io/thesis_ns/). I am the author of the R packages [__spinifex__](https://nspyrison.github.io/spinifex/) and [__cheem__](https://nspyrison.github.io/cheem/).
+I have recently recieved my Ph.D. from Monash University, Melbourne Australia where I studied multivariate data visualization, dimension reduction, and nonlinear model interpretability. I am the author two R packages, [__spinifex__](https://nspyrison.github.io/spinifex/) and [__cheem__](https://nspyrison.github.io/cheem/). Spinifex implements user-control of the basis in animated linear projections. Cheem uses this visualization method to explore the interpretability of machine learning models. My thesis is titled [_Interactive and dynamic visualization of high-dimensional data_](https://nspyrison.github.io/thesis_ns/)
 
 | Package | CRAN | Pkgdown | Shiny app | GitHub |
 | ------- | ---- | ----------- | --------- | ------ |
@@ -79,7 +79,8 @@ I am a PhD candidate at Monash University, Melbourne Australia where I study mul
 | cheem | [Link](https://CRAN.R-project.org/package=cheem) | [Documentation](https://nspyrison.github.io/cheem/) | [Application](https://nicholas-spyrison.shinyapps.io/cheem_initial/) | [Code](https://github.com/nspyrison/cheem) |
 
 
-I am grateful to be studying with the [NUMBATS](https://numbat.space/) and [Immersive Analytics](https://ialab.it.monash.edu/). My PhD research is in collaboration with 
+
+I had the pleasure of working with with the [NUMBATS](https://numbat.space/) and [Immersive Analytics](https://ialab.it.monash.edu/) during my studys. Research was conducted in collaboration with 
 [Professor Dianne Cook](http://www.dicook.org/) and [Professor Kim Marriott](https://research.monash.edu/en/persons/kimbal-marriott).
 
 I have been deepening my appreciation for coffee during my time in Australia. I love dogs and enjoy a good bike ride, comedy, and board games.
