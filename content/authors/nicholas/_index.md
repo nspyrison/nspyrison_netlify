@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nicholas Spyrison, PhD
+title: Nicholas Spyrison, Ph.D.
 
 # Is this the primary user of the site?
 superuser: true
@@ -28,10 +28,10 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Information Technology/Statistics
+  - course: Ph.D. in Information Technology/Statistics
     institution: Monash University
     year: 2022
-  - course: BSc in Statistics
+  - course: BSc. in Statistics
     institution: Iowa State University
     year: 2012
 
@@ -80,7 +80,7 @@ I have recently recieved my Ph.D. from Monash University, Melbourne Australia wh
 
 
 
-I had the pleasure of working with with the [NUMBATS](https://numbat.space/) and [Immersive Analytics](https://ialab.it.monash.edu/) during my studys. Research was conducted in collaboration with 
+I had the pleasure of working with the [NUMBATS](https://numbat.space/) and [Immersive Analytics](https://ialab.it.monash.edu/) during my studies. Research was conducted in collaboration with 
 [Professor Dianne Cook](http://www.dicook.org/) and [Professor Kim Marriott](https://research.monash.edu/en/persons/kimbal-marriott).
 
 I have been deepening my appreciation for coffee during my time in Australia. I love dogs and enjoy a good bike ride, comedy, and board games.
