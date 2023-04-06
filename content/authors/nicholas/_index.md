@@ -6,12 +6,12 @@ title: Nicholas Spyrison, Ph.D.
 superuser: true
 
 # Role/position/tagline
-role: Research Data Scientist, Healthcare
+role: Biostatistician
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: University of Queensland
-  url: https://www.uq.edu.au/
+- name: IFF Nutrition & Biosciences
+  url: https://www.iff.com/
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
