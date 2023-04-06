@@ -6,7 +6,7 @@ title: Nicholas Spyrison, Ph.D.
 superuser: true
 
 # Role/position/tagline
-role: Biostatistician
+role: Biostatistcian
 
 # Organizations/Affiliations to show in About widget
 organizations:
