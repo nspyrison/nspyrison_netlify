@@ -70,8 +70,15 @@ highlight_name: false
 
 ---
 
+<!-- Bio -->
+Nicholas Spyrison is a Statistician at International Flavors and Fragrances (IFF). He earned his PhD from Monash University, Australia in 2022, where he studied linear projections and animating them over small changes to the basis loading. Nick is the author of two R packages and has 12 published papers in the Statistics, Medical sciences, and Physics fields. In his free time, Nick enjoys a good coffee, comedy, and greeting dogs.
 
-I have recently recieved my Ph.D. from Monash University, Melbourne Australia where I studied multivariate data visualization, dimension reduction, and nonlinear model interpretability. I am the author two R packages, [__spinifex__](https://nspyrison.github.io/spinifex/) and [__cheem__](https://nspyrison.github.io/cheem/). Spinifex implements user-control of the basis in animated linear projections. Cheem uses this visualization method to explore the interpretability of machine learning models. My thesis is titled [_Interactive and dynamic visualization of high-dimensional data_](https://nspyrison.github.io/thesis_ns/)
+<!-- Intro -->
+<!-- Today, Nicholas will be presenting a novel method to explore Local Attributions of non-linear models. His corresponding article was recently accepted to Computational Statistics and the R package is available on CRAN. -->
+
+<!-- I have recently recieved my Ph.D. from Monash University, Melbourne Australia where I studied multivariate data visualization, dimension reduction, and nonlinear model interpretability. -->
+
+Nicholas is the author two R packages, [__spinifex__](https://nspyrison.github.io/spinifex/) and [__cheem__](https://nspyrison.github.io/cheem/). Spinifex implements user-control of the basis in animated linear projections. Cheem uses this visualization method to explore the interpretability of machine learning models. My thesis is titled [_Interactive and dynamic visualization of high-dimensional data_](https://nspyrison.github.io/thesis_ns/)
 
 | Package | CRAN | Pkgdown | Shiny app | GitHub |
 | ------- | ---- | ----------- | --------- | ------ |
@@ -80,9 +87,10 @@ I have recently recieved my Ph.D. from Monash University, Melbourne Australia wh
 
 
 
-I had the pleasure of working with the [NUMBATS](https://numbat.space/) and [Immersive Analytics](https://ialab.it.monash.edu/) during my studies. Research was conducted in collaboration with 
+<!-- I had the pleasure of working with the [NUMBATS](https://numbat.space/) and [Immersive Analytics](https://ialab.it.monash.edu/) during my studies. -->
+Ph.D. research was conducted in collaboration with 
 [Professor Dianne Cook](http://www.dicook.org/) and [Professor Kim Marriott](https://research.monash.edu/en/persons/kimbal-marriott).
 
-I have been deepening my appreciation for coffee during my time in Australia. I love dogs and enjoy a good bike ride, comedy, and board games.
+<!-- I have been deepening my appreciation for coffee during my time in Australia. I love dogs and enjoy a good bike ride, comedy, and board games. -->
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/cv_NicholasSpyrison.pdf" "newtab" >}} cv{{< /staticref >}}.
