@@ -10,6 +10,7 @@
 * blogdown::serve_site(): display the site content to Viewer panel/browser.
 
 * cv/resume lives in ./static/media
+* Author picture lives in ./content/authors/nicholas/avatar.jpeg
 * /assets/: think of this as themeing and dependencies for the website itself, the tab icon exists in /assets/images/icon.png
 * /static/: think of this as a /figures or /output folder; images, gif, and other files that are referenced in the /content/ section belong here.
 * /content/: primary point of changes. Stores compilable files such as .md, .rmd.
