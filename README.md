@@ -7,7 +7,8 @@
 
 * blogdown::check_site(): a battery of checks and suggestions for cleanup.
 * blogdown::build_site() (or Build tab > Build Website button): rebuilds the site content, to reflect any changes made to the files.
-* blogdown::serve_site(): display the site content to Viewer panel/browser.
+* blogdown::serve_site(): locally display the site content to Viewer panel/browser.
+* Git commit triggers hosted website to be updated (takes how long? needs blogdown::build_site() to trigger changes?)
 
 * cv/resume lives in ./static/media
 * Author picture lives in ./content/authors/nicholas/avatar.jpeg
