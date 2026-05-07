@@ -71,7 +71,7 @@ highlight_name: false
 ---
 
 <!-- Bio -->
-Nicholas Spyrison is a Statistician at International Flavors and Fragrances (IFF). He earned his PhD from Monash University, Australia in 2022, where he studied linear projections and animating them over small changes to the basis loading. Nick is the author of two R packages and has 12 published papers in the Statistics, Medical sciences, and Physics fields. In his free time, Nick enjoys a good coffee, comedy, and greeting dogs.
+Nicholas Spyrison is a Statistician at International Flavors and Fragrances (IFF). He earned his PhD from Monash University, Australia in 2022, where he studied linear projections and animating them over small changes to the basis loading. Nick is the author of two R packages and has published papers in the Statistics, Medical sciences, and Physics fields. In his free time, Nick enjoys a good coffee, comedy, and greeting dogs.
 
 <!-- Intro -->
 <!-- Today, Nicholas will be presenting a novel method to explore Local Attributions of non-linear models. His corresponding article was recently accepted to Computational Statistics and the R package is available on CRAN. -->
