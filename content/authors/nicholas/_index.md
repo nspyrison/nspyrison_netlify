@@ -6,24 +6,23 @@ title: Nicholas Spyrison, Ph.D.
 superuser: true
 
 # Role/position/tagline
-role: Biostatistcian
+role: Statistcian | Data Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: IFF Nutrition & Biosciences
-  url: https://www.iff.com/
+- name: IFF Health Sciences
+  url: https://www.iff.com/health-sciences/
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
+- Machine learning
 - Dimension reduction
 - Multivariate data visualization
-- Machine learning
 - Exploratory data analysis
 - Futurology & human progress
-
 
 # Education to show in About widget
 education:
@@ -71,26 +70,18 @@ highlight_name: false
 ---
 
 <!-- Bio -->
-Nicholas Spyrison is a Statistician at International Flavors and Fragrances (IFF). He earned his PhD from Monash University, Australia in 2022, where he studied linear projections and animating them over small changes to the basis loading. Nick is the author of two R packages and has published papers in the Statistics, Medical sciences, and Physics fields. In his free time, Nick enjoys a good coffee, comedy, and greeting dogs.
+Nicholas Spyrison is a statistician at International Flavors and Fragrances (IFF). He earned his PhD from Monash University, Australia in 2022, where he multivariate data visualization and its application to Explainable AI. Publication domains include statistics, medical sciences, and condensed mater physics. In his free time, Nicholas enjoys a good coffee, comedy, and discussing science and philosophy.
 
-<!-- Intro -->
-<!-- Today, Nicholas will be presenting a novel method to explore Local Attributions of non-linear models. His corresponding article was recently accepted to Computational Statistics and the R package is available on CRAN. -->
-
-<!-- I have recently recieved my Ph.D. from Monash University, Melbourne Australia where I studied multivariate data visualization, dimension reduction, and nonlinear model interpretability. -->
-
-Nicholas is the author two R packages, [__spinifex__](https://nspyrison.github.io/spinifex/) and [__cheem__](https://nspyrison.github.io/cheem/). Spinifex implements user-control of the basis in animated linear projections. Cheem uses this visualization method to explore the interpretability of machine learning models. My thesis is titled [_Interactive and dynamic visualization of high-dimensional data_](https://nspyrison.github.io/thesis_ns/)
+\
+Nicholas is the author two R packages, [__spinifex__](https://nspyrison.github.io/spinifex/) and [__cheem__](https://nspyrison.github.io/cheem/). Spinifex implements user-control of the basis in animated linear projections. Cheem uses this visualization method to explore the interpretability of machine learning models. His thesis is titled [_Interactive and dynamic visualization of high-dimensional data_](https://nspyrison.github.io/thesis_ns/).
 
 | Package | CRAN | Pkgdown | Shiny app | GitHub |
 | ------- | ---- | ----------- | --------- | ------ |
 | spinifex | [Link](https://CRAN.R-project.org/package=spinifex) | [Documentation](https://nspyrison.github.io/spinifex/) | [Application](https://nicholas-spyrison.shinyapps.io/radial_tour/) | [Code](https://github.com/nspyrison/spinifex) |
 | cheem | [Link](https://CRAN.R-project.org/package=cheem) | [Documentation](https://nspyrison.github.io/cheem/) | [Application](https://nicholas-spyrison.shinyapps.io/cheem_initial/) | [Code](https://github.com/nspyrison/cheem) |
 
-
-
-<!-- I had the pleasure of working with the [NUMBATS](https://numbat.space/) and [Immersive Analytics](https://ialab.it.monash.edu/) during my studies. -->
 Ph.D. research was conducted in collaboration with 
 [Professor Dianne Cook](http://www.dicook.org/) and [Professor Kim Marriott](https://research.monash.edu/en/persons/kimbal-marriott).
 
-<!-- I have been deepening my appreciation for coffee during my time in Australia. I love dogs and enjoy a good bike ride, comedy, and board games. -->
-
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/cv_NicholasSpyrison.pdf" "newtab" >}} cv{{< /staticref >}}.
+
